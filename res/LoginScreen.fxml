@@ -29,7 +29,7 @@
       </MenuBar>
    </top>
    <center>
-      <GridPane maxHeight="75.0" BorderPane.alignment="TOP_CENTER">
+      <GridPane maxHeight="100.0" BorderPane.alignment="TOP_CENTER">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" maxWidth="142.0" minWidth="10.0" prefWidth="104.0" />
             <ColumnConstraints hgrow="SOMETIMES" maxWidth="205.0" minWidth="10.0" prefWidth="196.0" />
@@ -37,12 +37,14 @@
         <rowConstraints>
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
             <Label text="Username:" GridPane.halignment="CENTER" />
             <Label text="Password:" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
             <TextField alignment="CENTER" maxWidth="150.0" promptText="Type username" GridPane.columnIndex="1" GridPane.halignment="CENTER" />
             <PasswordField alignment="CENTER" maxWidth="150.0" promptText="Type password" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" text="Login" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
          </children>
          <BorderPane.margin>
             <Insets top="50.0" />

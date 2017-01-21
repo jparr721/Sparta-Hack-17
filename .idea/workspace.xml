@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05ce43a6-9902-4996-8167-a21493c560c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MoneyManager/GUI/MainMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MoneyManager/GUI/MainMenuController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MoneyManager/GUI/NewUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MoneyManager/GUI/NewUserController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/LoginScreen.fxml" afterPath="$PROJECT_DIR$/res/LoginScreen.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MoneyManager/CustomerDatabase.java" afterPath="$PROJECT_DIR$/src/MoneyManager/CustomerDatabase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MoneyManager/GUI/LoginScreenController.java" afterPath="$PROJECT_DIR$/src/MoneyManager/GUI/LoginScreenController.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoginScreen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MoneyManager/GUI/LoginScreen.java">
+      <file leaf-file-name="LoginScreenController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MoneyManager/GUI/LoginScreenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="513">
+              <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,12 +37,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerDatabase.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NewUserController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MoneyManager/GUI/NewUserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerDatabase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MoneyManager/CustomerDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-              <folding />
+            <state relative-caret-position="240">
+              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+              <folding>
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#875#876#0" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,8 +79,8 @@
       <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MoneyManager/GUI/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,9 +122,11 @@
         <option value="$PROJECT_DIR$/src/MoneyManager/LoginScreen.java" />
         <option value="$PROJECT_DIR$/src/MoneyManager/GUI/LoginScreen.java" />
         <option value="$PROJECT_DIR$/src/CustomerDatabase.java" />
-        <option value="$PROJECT_DIR$/src/MoneyManager/GUI/LoginScreenController.java" />
         <option value="$PROJECT_DIR$/src/MoneyManager/GUI/MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/MoneyManager/GUI/NewUser.java" />
+        <option value="$PROJECT_DIR$/src/MoneyManager/GUI/LoginScreenController.java" />
         <option value="$PROJECT_DIR$/src/MoneyManager/CustomerDatabase.java" />
+        <option value="$PROJECT_DIR$/src/MoneyManager/GUI/NewUserController.java" />
       </list>
     </option>
   </component>
@@ -592,12 +624,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1484977775847</updated>
-      <workItem from="1484977777236" duration="3221000" />
+      <workItem from="1484977777236" duration="6289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3221000" />
+    <option name="totallyTimeSpent" value="6289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1001" height="1174" extended-state="0" />
@@ -652,13 +684,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MoneyManager/GUI/LoginScreenController.java">
+    <entry file="file://$PROJECT_DIR$/src/MoneyManager/GUI/MainMenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -674,27 +704,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MoneyManager/GUI/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MoneyManager/GUI/MainMenuController.java">
+    <entry file="file://$PROJECT_DIR$/src/MoneyManager/CustomerDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="240">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MoneyManager/CustomerDatabase.java">
+    <entry file="file://$PROJECT_DIR$/src/MoneyManager/GUI/NewUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="360">
+          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MoneyManager/GUI/LoginScreenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MoneyManager/GUI/NewUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
