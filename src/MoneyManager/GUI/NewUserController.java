@@ -21,11 +21,11 @@ public class NewUserController implements Initializable {
 
     @FXML private PasswordField passwordField, confirmField;
 
-    @FXML private Button closeButton;
+    @FXML private Button closeButton, doneButton;
 
-    CustomerDatabase newCustomer = new CustomerDatabase();
+    CustomerDatabase customer = new CustomerDatabase();
 
-    private String firstName, lastName, userName, password, passwordConfirm;
+    private String firstName, lastName, username, password, passwordConfirm;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -36,11 +36,11 @@ public class NewUserController implements Initializable {
     public void newUserAuthentification(){
         firstName = firstNameField.getText();
         lastName = lastNameField.getText();
-        userName = usernameField.getText();
+        username = usernameField.getText();
         password = passwordField.getText();
         passwordConfirm = confirmField.getText();
 
-        if (password != passwordConfirm){
+        if (!(password.equals(passwordConfirm))){
 
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setTitle("ERROR!");
@@ -50,10 +50,10 @@ public class NewUserController implements Initializable {
             alert.showAndWait();
         }
 
-        newCustomer.setUserName(userName);
-        newCustomer.setPassword(password);
-        newCustomer.setFirstName(firstName);
-        newCustomer.setLastName(lastName);
+        customer.newCustomer(firstName, lastName, username, password);
+
+        Stage stage = (Stage) doneButton.getScene().getWindow();
+        stage.close();
 
     }
 
@@ -64,4 +64,5 @@ public class NewUserController implements Initializable {
         //Close the window
         stage.close();
     }
+
 }
