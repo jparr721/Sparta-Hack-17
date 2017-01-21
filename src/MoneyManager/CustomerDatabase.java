@@ -11,7 +11,8 @@ public class CustomerDatabase {
 
     private int budget;
 
-    public CustomerDatabase(String first, String last){
+    public CustomerDatabase(String first, String last, String userName,
+                            String password){
 
         fullName = first + " " + last;
 
