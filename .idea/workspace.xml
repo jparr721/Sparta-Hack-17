@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05ce43a6-9902-4996-8167-a21493c560c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/MoneyManager/CustomerDatabase.class" afterPath="$PROJECT_DIR$/out/MoneyManager/CustomerDatabase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/MoneyManager/GUI/LoginScreenController.class" afterPath="$PROJECT_DIR$/out/MoneyManager/GUI/LoginScreenController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MoneyManager/GUI/LoginScreenController.java" afterPath="$PROJECT_DIR$/src/MoneyManager/GUI/LoginScreenController.java" />
-    </list>
+    <list default="true" id="05ce43a6-9902-4996-8167-a21493c560c4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +21,8 @@
       <file leaf-file-name="LoginScreenController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MoneyManager/GUI/LoginScreenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="70" column="32" lean-forward="true" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+            <state relative-caret-position="435">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -651,12 +646,12 @@
       <option name="presentableId" value="Default" />
       <updated>1484977775847</updated>
       <workItem from="1484977777236" duration="10412000" />
-      <workItem from="1485032722784" duration="4301000" />
+      <workItem from="1485032722784" duration="4886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14713000" />
+    <option name="totallyTimeSpent" value="15298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1001" height="1174" extended-state="0" />
@@ -825,8 +820,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MoneyManager/GUI/LoginScreenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="70" column="32" lean-forward="true" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+        <state relative-caret-position="435">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
