@@ -66,7 +66,7 @@ public class LoginScreenController implements Initializable {
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setTitle("ERROR!");
             alert.setHeaderText("Incorrect Password");
-            alert.setContentText("The two passwords you have entered do not match!");
+            alert.setContentText("The username or password you entered is incorrect");
 
             alert.showAndWait();
         }
